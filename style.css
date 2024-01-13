@@ -1,0 +1,45 @@
+h1{
+    text-align:center;
+}
+.items1{
+    width:20%;
+    border:1px solid black;
+    margin:20px;
+    height:20px;
+    background-color: red;
+    box-shadow:0 0 15px darkgoldenrod;
+}
+.items2{
+    width:20%;
+    border:1px solid black;
+    margin:20px;
+    height:20px;
+    background-color: green;
+    box-shadow:0 0 15px darkgoldenrod;
+}
+.items3{
+    width:20%;
+    border:1px solid black;
+    margin:20px;
+    height:20px;
+    background-color: blue;
+    box-shadow:0 0 15px darkgoldenrod;
+}
+#container{
+    padding-left:40%;
+    border:2px solid black;
+}
+.nestedtag1,
+.nestedtag2{
+    display:inline-block;
+    height:100%;
+}
+.nestedtag1{
+    /*border-right: 2ps solid black;*/
+    width:26%;
+}
+.nestedtag2{
+    border-left: 10px double black;
+    background-color: rgba(255, 255, 255, 0.4);
+    width:56%;
+}
